@@ -8,6 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.image.Image?>
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.acsandras.helloguiworld.controlers.GaveViewController">
    <children>
       <Button fx:id="opretKnap" layoutX="25.0" layoutY="315.0" mnemonicParsing="false" onAction="#tilfojGave" text="Opret gave" textFill="#bc4040">
@@ -40,7 +41,11 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="359.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="359.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" >
+         <image>
+            <Image url="https://images-bonnier.imgix.net/files/ill/production/2018/10/14082748/julegaver.jpg" />
+         </image>
+      </ImageView>
       <Label fx:id="statusLabel" layoutX="394.0" layoutY="338.0" text="Status..." />
    </children>
 </Pane>
